@@ -3,9 +3,9 @@
     <h3>Debug Console</h3>
 </div>
 <p class="pull-right">
-    <a href="/apps/48681/debug" class="btn-flat gray" id="clear_console">Clear</a>
-    <a href="/apps/48681/debug" class="btn-flat gray" id="toggle_logging">Pause</a>
-    <a href="/ui" class="btn-flat gray" id="toggle_logging">Back</a>
+    <a class="btn btn-primary" id="clear_console">Clear</a>
+    <a class="btn btn-primary" id="toggle_logging">Pause</a>
+    <a href="/" class="btn btn-primary" id="back">Back</a>
 </p>
 <p>The debug console shows all events happening for all connections and messages for this app. <br><strong>Note:</strong> More recent events are displayed on top.</p>
 
@@ -15,7 +15,7 @@
         <tr>
             <th id="debug-expand"></th>
             <th id="debug-type">Event</th>
-            <th id="debug-socket-id">Socket</th>
+            <th id="debug-client-id">Client Id</th>
             <th id="debug-details">Message Details</th>
             <th id="debug-timestamp">Time</th>
         </tr>

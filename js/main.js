@@ -9,7 +9,8 @@ require.config({
     channelView: 'views/channel/channel',
     channelSummary: 'modules/channel_summary',
     notificatorApi: 'model/notificator_api',
-    debugView: 'views/debug/debug'
+    debugView: 'views/debug/debug',
+    notificatorDebug: 'modules/notificator-debug'
   },
 
   shim: {
